@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+
+main {
+  padding: 0 16px;
+  display: flex;
+}
+
+main section {
+  border: 2px solid #ccc;
+}
+
+main section:hover {
+  opacity: .8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header h1 {
+  box-shadow: 4px 4px 4px gray;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin: 4px;
+  width: 110px;
+  font-size: 12px;
+}
+
+a:hover {
+  opacity: .8;
+}
+
+main section img {
+  height: 300px;
+  width: auto;
+  vertical-align: bottom;
+}
+
+h1 {
+  margin: 0;
+  padding: 8px;
+  font-size: 20px;
+}
+
+main section h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+
+/*   London Page   */
+
+.eachpage {
+  padding: 16px;
+}
+
+/* .picA {
+  height: 300px;
+  width: auto;
+} */
+
+.eachpage div {
+  object-fit: cover;
+}
+
+h3 {
+  margin: 0;
+}
+
+.picA {
+  height: 300px;
+  width: 400px;
+}
+
+.picB {
+  height: 300px;
+  width: 400px;
+}
+
+.picC {
+  height: 300px;
+  width: 400px;
+}
+
+.container {
+  display: flex;
+  border: 3px solid blue;
+  width: 1200px;
+}
+
+.picD {
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.EF {
+  display: flex;
+  height: 500px;
+  border: 3px solid orange;
+}
+
+.E {
+  border: 2px solid red;
+}
+
+.picE {
+  height: 250px;
+  width: auto;
+}
+
+.picEE {
+  height: 250px;
+  width: 400px;
+}
+
+.picF {
+  height: 300px;
+  width: 449px;
+  object-fit: cover;
+}
+
+
