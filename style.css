@@ -91,7 +91,6 @@ h3 {
 
 .container {
   display: flex;
-  border: 3px solid blue;
   width: 1200px;
 }
 
@@ -104,27 +103,29 @@ h3 {
 .EF {
   display: flex;
   height: 500px;
-  border: 3px solid orange;
 }
 
 .E {
-  border: 2px solid red;
+  display: flex;
 }
 
-.picE {
+/* .picE {
   height: 250px;
   width: auto;
-}
+} */
 
 .picEE {
   height: 250px;
   width: 400px;
+  object-fit: cover;
+  margin-top: auto;
 }
 
 .picF {
-  height: 300px;
+  height: 250px;
   width: 449px;
   object-fit: cover;
+  margin-top: auto;
 }
 
 
